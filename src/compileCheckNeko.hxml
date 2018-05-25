@@ -1,0 +1,7 @@
+-neko bin/hxPolyNearLinearTri.n
+-cp src
+-debug
+-main CheckCompileMain
+#-dce full
+--next
+-cmd neko bin/hxPolyNearLinearTri.n
